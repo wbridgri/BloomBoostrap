@@ -1,0 +1,54 @@
+:root {
+    --font1: "Noto Sans", sans-serif;
+    --font2: "Sofia", cursive;
+    --grad: radial-gradient(
+        at top center,
+        #ec8da1,
+        #e7718b,
+    );
+    --icon: #fefefe;
+    --prim: #e7718b;
+    --sec: #26292e;
+    --sec2Border: #fce3e7;
+    --tert: #f4f4f6;
+    /* 
+    productbox: #4444
+    product borderL #b8bdd0
+     */
+}
+
+* {box-sizing: border-box;}
+
+/* tags */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* classes */
+
+.header {
+    background-color: var(--sec);
+    color: var(--tert);
+    font-family: var(--font2);
+}
+
+.social-list {
+    display: inline;
+    color: var(--tert);
+}
+
+
+/* ids */
+
+#section1 {
+    background-color: var(--prim);
+    color: var(--tert);
+}
+
+#product1, #product2, #product3, #product4 {
+    height: 100px;
+    width:100px;
+    border: 10px solid #b8bdd0;
+}
