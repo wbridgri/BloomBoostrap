@@ -34,11 +34,9 @@ body {
     font-family: var(--font2);
 }
 
-.social-list {
-    display: inline;
+.nav-linkCSS {
     color: var(--tert);
 }
-
 
 /* ids */
 
@@ -48,7 +46,13 @@ body {
 }
 
 #product1, #product2, #product3, #product4 {
-    height: 100px;
-    width:100px;
+    height: 250px;
+    width:400px;
     border: 10px solid #b8bdd0;
+    margin-bottom: 10px;
+}
+
+#section2 {
+    background-color: var(--tert);
+    border-bottom: 10px solid var(--sec2Border);
 }
