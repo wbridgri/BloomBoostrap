@@ -43,16 +43,19 @@ body {
 #section1 {
     background-color: var(--prim);
     color: var(--tert);
+    padding-bottom: 20px;
 }
 
 #product1, #product2, #product3, #product4 {
-    height: 250px;
-    width:400px;
+    height: 150px;
+    width:300px;
     border: 10px solid #b8bdd0;
     margin-bottom: 10px;
+    background-color: #4444;
 }
 
 #section2 {
     background-color: var(--tert);
     border-bottom: 10px solid var(--sec2Border);
+    
 }
