@@ -15,7 +15,7 @@
 <!-- HEADER -->
     <header class="header" id="header">
         <div class="container" id="container1">
-            <div class="row" id="row1">
+            <div class="row py-2" id="row1">
                 <div class="col-6">
                     <h1 class="heading">Bloom Landing Page</h1>
                 </div>
@@ -50,15 +50,15 @@
     <main class="main" id="main">
         <section class="section" id="section1">
             <div class="container" id="container2">
-                <div class="row" id="row2">
+                <div class="row py-5" id="row2">
                     <div class="col-6">
                         <div class="box" id="sec1Box1">
                             <h2 class="sub-heading">Welcome to our Landing page!</h2>
                             <p class="box1-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam blanditiis, optio animi praesentium quisquam rem consequatur inventore aliquid at architecto nobis deleniti commodi facilis molestias?</p>
                             <p class="box1-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam blanditiis, optio animi praesentium quisquam rem consequatur inventore aliquid at architecto nobis deleniti commodi facilis molestias?</p>
                             <div class="buttons">
-                                <button class="btn">learn more</button>
-                                <button class="btn">download now</button>
+                                <button class="btn button">learn more</button>
+                                <button class="btn button">download now</button>
                             </div>
                         </div>
                     </div>
@@ -72,24 +72,30 @@
         </section>
         <section class="section" id="section2">
             <div class="container" id="container3">
-                <div class="row" id="row3">
+                <div class="row py-5" id="row3">
                     <div class="col-4">
                         <div class="sec2-box" id="sec2Box1">
-                            <i class="bi bi-cloud-download-fill"></i>
+                            <span>
+                                <i class="bi bi-cloud-download-fill fs-1"></i>
+                            </span>
                             <h2 class="sec2-subheading d-inline-block">Lorem, ipsum dolor.</h2>
                             <p class="sec2-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo accusantium saepe molestiae quos soluta modi? Nihil aliquam nemo, saepe rerum cumque autem tempora laboriosam. Delectus!</p>
                         </div>
                     </div>
                     <div class="col-4">
                         <div class="sec2-box" id="sec2Box2">
-                            <i class="bi bi-chat-left-text-fill"></i>
+                            <span>
+                                <i class="bi bi-chat-left-text-fill fs-1"></i>
+                            </span>
                             <h2 class="sec2-subheading d-inline-block">Lorem, ipsum dolor.</h2>
                             <p class="sec2-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo accusantium saepe molestiae quos soluta modi? Nihil aliquam nemo, saepe rerum cumque autem tempora laboriosam. Delectus!</p>
                         </div>
                     </div>
                     <div class="col-4">
                         <div class="sec2-box" id="sec2Box3">
-                            <i class="bi bi-bookmark-star-fill"></i>
+                            <span>
+                                <i class="bi bi-bookmark-star-fill fs-1"></i>
+                            </span>
                             <h2 class="sec2-subheading d-inline-block">Lorem, ipsum dolor.</h2>
                             <p class="sec2-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo accusantium saepe molestiae quos soluta modi? Nihil aliquam nemo, saepe rerum cumque autem tempora laboriosam. Delectus!</p>
                         </div>
@@ -106,12 +112,12 @@
                             <div class="products">
                                 <div class="row" id="row4-1">
                                     <div class="col-3">
-                                        <div class="products" id="product1"></div>
-                                        <div class="products" id="product2"></div>
+                                        <div class="products shadow" id="product1"></div>
+                                        <div class="products shadow" id="product2"></div>
                                     </div>
                                     <div class="col-3 mx-auto justify-content-end">
-                                        <div class="products" id="product3"></div>
-                                        <div class="products" id="product4"></div>
+                                        <div class="products shadow" id="product3"></div>
+                                        <div class="products shadow" id="product4"></div>
                                     </div>
                                 </div>
                             </div>
@@ -122,13 +128,13 @@
                             <h2 class="sec3-subheading">What Our Clients are saying...</h2>
                             <ul class="clients-list list-unstyled">
                                 <li class="clients-item">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae nisi consequuntur, ab repellat voluptatum unde quis natus. Dolor libero maiores nostrum id accusamus minus in.
-                                    <span class="client">John Smith</span>
+                                    <span class="client d-block">John Smith</span>
                                 </li>
                                 <li class="clients-item">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae nisi consequuntur, ab repellat voluptatum unde quis natus. Dolor libero maiores nostrum id accusamus minus in.
-                                    <span class="client">John Smith</span>
+                                    <span class="client d-block">John Smith</span>
                                 </li>
                                 <li class="clients-item">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae nisi consequuntur, ab repellat voluptatum unde quis natus. Dolor libero maiores nostrum id accusamus minus in.
-                                    <span class="client">John Smith</span>
+                                    <span class="client d-block">John Smith</span>
                                 </li>
                             </ul>
                         </div>
@@ -141,37 +147,39 @@
     <footer class="footer" id="footer">
         <div class="container" id="container4">
             <div class="row" id="row5">
-                <p class="colohpon text-center">site by
-                    <a href="https://mscoding.org/" class="site-link" target="_blank">
-                        Will Bridges
-                        </a>
-                        &copy;
-                </p>
-                <!-- <div class="clear"></div> -->
-                <nav class="nav social-nav" id="botSocialNav">
-                    <ul class="social-list" id="botSocialList">
-                        <li class="social-item">
-                            <a href="#">
-                                <span class="visually-hidden">facebook</span>
-                                <div class="icon"></div>
+                <div class="col-6">
+                    <p class="colohpon text-center">site by
+                        <a href="https://mscoding.org/" class="site-link" target="_blank">
+                            Will Bridges
                             </a>
-                        </li>
-                        <li class="social-item">
-                            <a href="#">
-                                <span class="visually-hidden">twitter</span>
-                                <div class="icon"></div>
-                            </a>
-                        </li>
-                        <li class="social-item">
-                            <a href="#">
-                                <span class="visually-hidden">instagram</span>
-                                <div class="icon"></div>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
+                            &copy;
+                    </p>
+                </div>
+                <div class="col-6">
+                    <nav class="nav social-nav justify-content-around" id="botSocialNav">
+                        <ul class="social-list nav" id="topSocialList">
+                            <li class="social-item nav-item">
+                                <a href="#" class="nav-link nav-linkCSS">
+                                    <span class="visually-hidden">facebook</span>
+                                    <i class="bi bi-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="social-item nav-item">
+                                <a href="#" class="nav-link nav-linkCSS">
+                                    <span class="visually-hidden">twitter</span>
+                                    <i class="bi bi-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="social-item nav-item">
+                                <a href="#" class="nav-link nav-linkCSS">
+                                    <span class="visually-hidden">instagram</span>
+                                    <i class="bi bi-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
-            <!-- <div class="clear"></div> -->
         </div>
     </footer>
     <!-- JS -->

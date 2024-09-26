@@ -28,6 +28,26 @@ body {
 
 /* classes */
 
+
+.button{
+    background-color: var(--sec);
+    color: var(--tert); 
+    height: 40px;
+    width: 140px;
+    border-radius: 5%;
+    
+}
+
+.clients-item {
+    color: lightgrey;
+    padding: 10px;
+}
+
+.client {
+    font-weight: bold;
+    color: black;
+}
+
 .header {
     background-color: var(--sec);
     color: var(--tert);
@@ -43,19 +63,29 @@ body {
 #section1 {
     background-color: var(--prim);
     color: var(--tert);
-    padding-bottom: 20px;
 }
 
 #product1, #product2, #product3, #product4 {
-    height: 150px;
-    width:300px;
+    height: 200px;
+    width:400px;
     border: 10px solid #b8bdd0;
-    margin-bottom: 10px;
     background-color: #4444;
+}
+#product1 {
+    margin-bottom: 20px;
+}
+
+#product3 {
+    margin-bottom: 20px;
 }
 
 #section2 {
     background-color: var(--tert);
     border-bottom: 10px solid var(--sec2Border);
     
+}
+
+#footer {
+    background-color: var(--sec);
+    color: var(--tert);
 }
