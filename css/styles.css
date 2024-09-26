@@ -88,4 +88,5 @@ body {
 #footer {
     background-color: var(--sec);
     color: var(--tert);
+    padding: 30px;
 }
